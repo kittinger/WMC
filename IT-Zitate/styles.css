@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+
+
+div {
+    width: 70%;
+    border: 1px solid black;
+    padding: 40px 100px;
+    margin: 40px;
+    background-color: rgb(226, 116, 104);
+    border-radius: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header, footer{
+    width: 70%;
+    border: 1px solid black;
+    padding: 40px 100px;
+    margin: 40px;
+    background-color: rgb(232, 83, 66);
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    font-weight: 400;
+    font-style: normal;
+    color: lightblue;
+}
+
+table, th, td, tr {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+tr:nth-child(even){
+    background-color:lightgray;
+}
+tr:nth-child(odd){
+    background-color:white;
+}
+
+td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#bild{
+    padding: 10px;
+}
+img{
+    width: 100px;
+    border-radius: 15px;
+}
